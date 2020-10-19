@@ -1,0 +1,51 @@
+<HTML>
+
+<HEAD><center><font size="5">Military training club (complementary)</font size="5"></center>
+
+<TITLE>Military training club (complementary)</TITLE>
+
+</HEAD><br><br>
+
+<BODY bgcolor="005C84">
+<Form action="http://10.1.33.10/saxons/cgi-bin/funform.cgi" method="post">
+What is your name?<br>
+<INPUT TYPE="text" NAME="customer_name" value="first name" SIZE="30"><br>
+<input type="text" name="customer_name" value="last name" size="30"><br>
+why do you want to join?<br>
+<textarea name="textarea" cols="60" rows="5"></textarea><br><br>
+How much work do you want to do?<br>
+<input type="radio" name="work_type" value="not a lot">not a lot<br>
+<input type="radio" name="work_type" value="some">some<br>
+<input type="radio" name="work_type" value="a lot">a lot<br>
+<input type="radio" name="work_type" value="way too much">way too much<br><br>
+What part(s) of the work do you want to do?<br>
+<input type="checkbox" name="part1" value="first section">First section<br>
+<input type="checkbox" name="part2" value="second section">Second section<br>
+<input type="checkbox" name="part3" value="Third section">Third section<br><br>
+What school do you go to?<br>
+<select name="school">
+<option>select your school</option>
+<option value="south">south</option>
+<option value="west">west</option>
+<option value="sprague">sprague</option>
+<option value="mckay">mckay</option>
+<option value="mcnary">mcnary</option>
+<option value="north">north</option>
+</select><br><br>
+<INPUT TYPE="submit"><INPUT TYPE="reset">
+</form>
+<form>
+<select name="list">
+<option selected value="">select a page</option>
+<option value="http://10.1.33.10/saxons">class home page</option>
+<option value="http://www.yahoo.com">yahoo</option>
+<option value="http://www.google.com">google</option>
+<option value="http://www.wikipedia.com">wikipedia</option>
+<option value="http://www.heavygames.com">heavygames</option>
+</select>
+<input type=button value="go there!"
+onClick="top.location.href=this.form.list.options[this.form.list.selectedIndex].value">
+</form>
+</BODY>
+
+</HTML>
